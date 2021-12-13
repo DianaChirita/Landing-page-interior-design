@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+  body > * {
+    padding: 12px;
+  }
+
+  .navigation-buttons {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: initial;
+    height: 100%;
+  }
+
+  .navigation-buttons > a {
+    margin: 16px 0;
+  }
+
+  .open-menu-icon {
+    align-self: center;
+    display: block;
+    width: 28.5px;
+    height: 19px;
+  }
+
+  main {
+    flex-direction: column;
+    margin: 38px 0;
+  }
+
+  .main-image {
+    width: 351px;
+    height: 264.32px;
+  }
+
+  .menu {
+    display: none;
+    background: var(--black);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    flex-direction: column;
+  }
+
+  .menu > button {
+    align-self: end;
+    background: inherit;
+    border: none;
+    margin: 22px 20px;
+  }
+
+  .menu img {
+    width: 23px;
+  }
+
+  .menu-active {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .left-section p {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 25px 113px 25px 0;
+  }
+
+  .left-section h3 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 25px;
+  }
+
+  .card {
+    width: 300px;
+    height: 138px;
+    left: 52px;
+    top: 536px;
+    padding: 13px 24px;
+  }
+
+  .designer-info img {
+    width: 36.59px;
+    height: 36.59px;
+    margin: 0 14px 0 0;
+  }
+
+  .designer-info .name {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .designer-info .job {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 23px;
+    width: 210px;
+  }
+
+  .menu-active {
+    display: flex;
+  }
+}
